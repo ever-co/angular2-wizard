@@ -1,11 +1,12 @@
 {
   "name": "@ever-co/angular2-wizard",
-  "version": "0.5.4",
+  "version": "0.5.5",
   "scripts": {
     "build": "ngc -p tsconfig.json",
     "lint": "tslint src/**/*.ts",
     "test": "karma start karma.conf.js",
     "prepublish": "tsc",
+    "postinstall": "ngcc",
     "tsc": "tsc"
   },
   "repository": {
@@ -31,13 +32,17 @@
   },
   "main": "./dist/index.js",
   "dependencies": {
+    "@angular/cli": "^12.2.10",
+    "@angular/compiler-cli": "^12.2.10",
     "bootstrap": "^4.6.0"
   },
+  "peerDependencies": {
+    "@angular/common": "^12.2.10",
+    "@angular/core": "^12.2.10"
+  },
   "devDependencies": {
-    "@angular/cli": "^12.2.10",
     "@angular/common": "^12.2.10",
     "@angular/compiler": "^12.2.10",
-    "@angular/compiler-cli": "^12.2.10",
     "@angular/core": "^12.2.10",
     "@angular/platform-browser": "^12.2.10",
     "@angular/platform-browser-dynamic": "^12.2.10",
