@@ -28,7 +28,7 @@ https://maiyaporn.github.io/angular2-wizard-demo/
 After installing the above dependencies, install angular2-wizard via:
 
 ```bash
-$ npm install angular2-wizard --save
+$ npm install @ever-co/angular2-wizard --save
 ```
 
 ## How to use the component
@@ -93,6 +93,7 @@ Once your library is imported, you can use form-wizard and wizard-step component
 ```
 
 ## Document
+
 https://github.com/maiyaporn/angular2-wizard/wiki
 
 ## Development
