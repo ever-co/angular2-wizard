@@ -11,8 +11,8 @@ You can checkout the demo below and see how to use it in the next section.
 
 ## Origin
 
-- Forked from https://github.com/maiyaporn/angular2-wizard
-- Updated from https://github.com/3dluis/angular2-wizard
+- Forked from https://github.com/ever-co/angular2-wizard
+- Updated from https://github.com/ever-co/angular2-wizard
 
 ## Demo
 
@@ -28,7 +28,7 @@ https://maiyaporn.github.io/angular2-wizard-demo/
 After installing the above dependencies, install angular2-wizard via:
 
 ```bash
-$ npm install @ever-co/angular2-wizard --save
+$ npm install @rahul-rathore-576/angular2-wizard --save
 ```
 
 ## How to use the component
