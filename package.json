@@ -1,6 +1,6 @@
 {
-  "name": "@3dluis/angular2-wizard",
-  "version": "0.4.0",
+  "name": "@ever-co/angular2-wizard",
+  "version": "0.5.0",
   "scripts": {
     "build": "ngc -p tsconfig.json",
     "lint": "tslint src/**/*.ts",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/maiyaporn/angular2-wizard"
+    "url": "https://github.com/ever-co/angular2-wizard"
   },
   "author": {
     "name": "Maiyaporn Phanich",
@@ -27,45 +27,42 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/maiyaporn/angular2-wizard/issues"
+    "url": "https://github.com/ever-co/angular2-wizard/issues"
   },
   "main": "./dist/index.js",
   "dependencies": {
-    "bootstrap": "^4.0.0-alpha.6"
+    "bootstrap": "^4.6.0"
   },
   "devDependencies": {
-    "@angular/common": "^4.0.2",
-    "@angular/compiler": "^4.0.2",
-    "@angular/compiler-cli": "^4.0.2",
-    "@angular/core": "^4.0.2",
-    "@angular/platform-browser": "^4.0.2",
-    "@angular/platform-browser-dynamic": "^4.0.2",
-    "@angular/platform-server": "^4.0.2",
-    "@types/es6-shim": "^0.31.32",
-    "@types/jasmine": "^2.5.42",
-    "@types/selenium-webdriver": "^3.0.1",
-    "awesome-typescript-loader": "^3.0.4-rc.2",
-    "codelyzer": "^2.1.1",
-    "istanbul-instrumenter-loader": "^2.0.0",
-    "jasmine-core": "^2.5.2",
-    "karma": "^1.4.1",
-    "karma-chrome-launcher": "^2.0.0",
-    "karma-coverage": "^1.1.1",
-    "karma-jasmine": "^1.1.0",
-    "karma-mocha-reporter": "^2.2.2",
-    "karma-remap-coverage": "^0.1.4",
-    "karma-sourcemap-loader": "^0.3.7",
-    "karma-webpack": "^2.0.2",
-    "rxjs": "^5.1.0",
-    "source-map-loader": "^0.2.1",
+    "@angular/common": "^12.2.10",
+    "@angular/compiler": "^12.2.10",
+    "@angular/compiler-cli": "^12.2.10",
+    "@angular/core": "^12.2.10",
+    "@angular/platform-browser": "^12.2.10",
+    "@angular/platform-browser-dynamic": "^12.2.10",
+    "@angular/platform-server": "^12.2.10",
+    "@types/jasmine": "^3.10.0",
+    "@types/selenium-webdriver": "^4.0.15",
+    "codelyzer": "^6.0.2",
+    "jasmine-core": "^3.10.0",
+    "karma": "^6.3.5",
+    "karma-chrome-launcher": "^3.1.0",
+    "karma-coverage": "^2.0.3",
+    "karma-jasmine": "^4.0.1",
+    "karma-mocha-reporter": "^2.2.5",
+    "karma-remap-coverage": "^0.1.5",
+    "karma-sourcemap-loader": "^0.3.8",
+    "karma-webpack": "^5.0.0",
+    "rxjs": "^7.4.0",
+    "source-map-loader": "^3.0.0",
     "ts-helpers": "^1.1.2",
-    "tslint": "~4.0.0",
-    "typescript": "^2.2.1",
-    "webpack": "^2.2.1",
-    "zone.js": "0.8.5"
+    "tslint": "^6.1.3",
+    "typescript": "~4.2.4",
+    "webpack": "^5.58.2",
+    "zone.js": "^0.11.4"
   },
   "engines": {
-    "node": ">=0.8.0"
+    "node": ">=14.4.0"
   },
   "_comment01": {
     "typings": "./dist/index.d.ts"

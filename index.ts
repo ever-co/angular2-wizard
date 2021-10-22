@@ -20,7 +20,7 @@ export * from './src/wizard-step.component';
   ]
 })
 export class FormWizardModule {
-  static forRoot(): ModuleWithProviders {
+  static forRoot(): ModuleWithProviders<FormWizardModule> {
     return {
       ngModule: FormWizardModule
     };
