@@ -11,13 +11,15 @@ You can checkout the demo below and see how to use it in the next section.
 
 ## Origin
 
-Forked from https://github.com/maiyaporn/angular2-wizard
-Updated from https://github.com/3dluis/angular2-wizard
+- Forked from https://github.com/maiyaporn/angular2-wizard
+- Updated from https://github.com/3dluis/angular2-wizard
 
 ## Demo
+
 https://maiyaporn.github.io/angular2-wizard-demo/
 
 ## Dependencies
+
 - Angular2+
 - Bootstrap 4
 
