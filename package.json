@@ -1,12 +1,11 @@
 {
   "name": "@ever-co/angular2-wizard",
-  "version": "0.5.3",
+  "version": "0.5.4",
   "scripts": {
     "build": "ngc -p tsconfig.json",
     "lint": "tslint src/**/*.ts",
     "test": "karma start karma.conf.js",
     "prepublish": "tsc",
-    "postinstall": "ngcc",
     "tsc": "tsc"
   },
   "repository": {
