@@ -36,6 +36,7 @@
     "strictInputAccessModifiers": true,
     "strictTemplates": true,
     "strictMetadataEmit": true,
-    "enableIvy": true
+    "enableIvy": true,
+    "compilationMode": "partial"
   }
 }
