@@ -1,15 +1,25 @@
 {
   "compilerOptions": {
     "noImplicitAny": true,
-    "module": "commonjs",
-    "target": "ES5",
+    "downlevelIteration": true,
+    "module": "es2020",
+    "target": "es2015",
+    "strict": false,
+    "moduleResolution": "node",
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
     "sourceMap": true,
+    "importHelpers": true,    
+    "declarationMap": true,
+    "inlineSources": true,
     "declaration": true,
     "outDir": "./dist",
     "typeRoots": [
       "node_modules/@types"
+    ],
+    "lib": [
+      "dom",
+      "es2018"
     ]
   },
   "files": [
@@ -21,6 +31,11 @@
     "**/*.spec.ts"
   ],
   "angularCompilerOptions": {
-    "strictMetadataEmit": true
+    "enableI18nLegacyMessageIdFormat": false,
+    "strictInjectionParameters": true,
+    "strictInputAccessModifiers": true,
+    "strictTemplates": true,
+    "strictMetadataEmit": true,
+    "enableIvy": true
   }
 }
