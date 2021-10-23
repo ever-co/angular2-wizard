@@ -1,0 +1,35 @@
+{
+    "name": "@ever-co/angular2-wizard",
+    "version": "0.6.2",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/ever-co/angular2-wizard"
+    },
+    "author": {
+      "name": "Maiyaporn Phanich",
+      "email": "p.maiyaporn@gmail.com"
+    },    
+    "keywords": [
+      "angular2-wizard",
+      "form-wizard",
+      "wizard",
+      "wizard-step",
+      "angular2",
+      "angular2-component"
+    ],
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/ever-co/angular2-wizard/issues"
+    },
+    "peerDependencies": {
+        "@angular/common": "^12.2.10",
+        "@angular/compiler": "^12.2.10",
+        "@angular/core": "^12.2.10",
+        "rxjs": "^7.4.0"
+      },
+    "dependencies": {      
+      "tslib": "^2.3.0"      
+    },    
+    "sideEffects": false
+  }
+  

@@ -1,14 +1,17 @@
 {
   "name": "@ever-co/angular2-wizard",
-  "version": "0.5.8",
+  "version": "0.6.2",
   "scripts": {
-    "build": "ngc -p tsconfig.json",
-    "lint": "tslint src/**/*.ts",
-    "test": "karma start karma.conf.js",
-    "prepublish": "tsc",
-    "postinstall": "ngcc",
-    "tsc": "tsc"
+    "ng": "ng",
+    "start": "ng serve",
+    "build": "ng build",
+    "test": "ng test",
+    "lint": "ng lint",
+    "e2e": "ng e2e",
+    "build-prod": "ng build --prod",
+    "publish-package": "ng build --prod angular2-wizard && cd dist/angular2-wizard && npm publish --access public"
   },
+  "private": true,
   "repository": {
     "type": "git",
     "url": "https://github.com/ever-co/angular2-wizard"
@@ -17,7 +20,6 @@
     "name": "Maiyaporn Phanich",
     "email": "p.maiyaporn@gmail.com"
   },
-  "typings": "./dist/index.d.ts",
   "keywords": [
     "angular2-wizard",
     "form-wizard",
@@ -30,30 +32,33 @@
   "bugs": {
     "url": "https://github.com/ever-co/angular2-wizard/issues"
   },
-  "main": "./dist/index.js",
   "dependencies": {
     "@angular/cli": "^12.2.10",
     "@angular/common": "^12.2.10",
-    "@angular/compiler-cli": "^12.2.10",
-    "@angular/core": "^12.2.10",
-    "bootstrap": "^4.6.0",
-    "tslib": "^2.3.0"
-  },
-  "devDependencies": {
-    "@angular-devkit/build-angular": "~12.2.10",
-    "@angular/common": "^12.2.10",
     "@angular/compiler": "^12.2.10",
+    "@angular/compiler-cli": "^12.2.10",
     "@angular/core": "^12.2.10",
     "@angular/platform-browser": "^12.2.10",
     "@angular/platform-browser-dynamic": "^12.2.10",
+    "@angular/router": "^12.2.10",
+    "bootstrap": "^4.6.0",
+    "rxjs": "^7.4.0",
+    "tslib": "^2.3.0",
+    "zone.js": "^0.11.4"
+  },
+  "devDependencies": {
+    "@angular-devkit/build-angular": "~12.2.10",
     "@angular/platform-server": "^12.2.10",
     "@types/jasmine": "^3.10.0",
+    "@types/jest": "^27.0.2",
+    "@types/node": "^16.11.4",
     "@types/selenium-webdriver": "^4.0.15",
     "codelyzer": "^6.0.2",
     "jasmine-core": "^3.10.0",
     "karma": "^6.3.5",
     "karma-chrome-launcher": "^3.1.0",
     "karma-coverage": "^2.0.3",
+    "karma-coverage-istanbul-reporter": "^3.0.3",
     "karma-jasmine": "^4.0.1",
     "karma-jasmine-html-reporter": "^1.7.0",
     "karma-mocha-reporter": "^2.2.5",
@@ -61,13 +66,11 @@
     "karma-sourcemap-loader": "^0.3.8",
     "karma-webpack": "^5.0.0",
     "ng-packagr": "^12.2.4",
-    "rxjs": "^7.4.0",
     "source-map-loader": "^3.0.0",
     "ts-helpers": "^1.1.2",
     "tslint": "^6.1.3",
     "typescript": "~4.2.4",
-    "webpack": "^5.58.2",
-    "zone.js": "^0.11.4"
+    "webpack": "^5.58.2"
   },
   "engines": {
     "node": ">=14.4.0"

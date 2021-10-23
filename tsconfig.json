@@ -1,5 +1,11 @@
 {
+  "compileOnSave": false,
   "compilerOptions": {
+    "baseUrl": "./",
+    "outDir": "./dist/out-tsc",
+    "sourceMap": true,
+    "declaration": false,
+    "declarationMap": true,
     "noImplicitAny": true,
     "downlevelIteration": true,
     "module": "es2020",
@@ -7,13 +13,9 @@
     "strict": false,
     "moduleResolution": "node",
     "emitDecoratorMetadata": true,
-    "experimentalDecorators": true,
-    "sourceMap": true,
+    "experimentalDecorators": true,    
     "importHelpers": true,    
-    "declaration": true,
-    "declarationMap": true,
     "inlineSources": true,    
-    "outDir": "./dist",
     "typeRoots": [
       "node_modules/@types"
     ],
@@ -21,24 +23,12 @@
     "lib": [
       "dom",
       "es2018"
-    ]
-  },
-  "files": [
-    "src/index.ts"
-  ],
-  "exclude": [    
-    "src/test.ts",
-    "**/*.spec.ts"
-  ],
-  "angularCompilerOptions": {
-    "skipTemplateCodegen": true,
-    "strictMetadataEmit": true,
-    "enableResourceInlining": true,
-    "enableI18nLegacyMessageIdFormat": false,
-    "strictInjectionParameters": true,
-    "strictInputAccessModifiers": true,
-    "strictTemplates": true,    
-    "enableIvy": true,
-    "compilationMode": "partial"
-  }
+    ],
+    "paths": {
+      "angular2-wizard": [
+        "dist/angular2-wizard/angular2-wizard",
+        "dist/angular2-wizard"
+      ]
+    }
+  }  
 }
