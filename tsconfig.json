@@ -10,32 +10,34 @@
     "experimentalDecorators": true,
     "sourceMap": true,
     "importHelpers": true,    
-    "declarationMap": true,
-    "inlineSources": true,
     "declaration": true,
+    "declarationMap": true,
+    "inlineSources": true,    
     "outDir": "./dist",
     "typeRoots": [
       "node_modules/@types"
     ],
+    "types": [],
     "lib": [
       "dom",
       "es2018"
     ]
   },
   "files": [
-    "index.ts"
+    "src/index.ts"
   ],
-  "exclude": [
-    "node_modules",
-    "dist",
+  "exclude": [    
+    "src/test.ts",
     "**/*.spec.ts"
   ],
   "angularCompilerOptions": {
+    "skipTemplateCodegen": true,
+    "strictMetadataEmit": true,
+    "enableResourceInlining": true,
     "enableI18nLegacyMessageIdFormat": false,
     "strictInjectionParameters": true,
     "strictInputAccessModifiers": true,
-    "strictTemplates": true,
-    "strictMetadataEmit": true,
+    "strictTemplates": true,    
     "enableIvy": true,
     "compilationMode": "partial"
   }

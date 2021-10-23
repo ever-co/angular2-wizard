@@ -1,10 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { WizardComponent } from './src/wizard.component';
-import { WizardStepComponent } from './src/wizard-step.component';
-
-export * from './src/wizard.component';
-export * from './src/wizard-step.component';
+import { WizardComponent } from './wizard.component';
+import { WizardStepComponent } from './wizard-step.component';
 
 @NgModule({
   imports: [

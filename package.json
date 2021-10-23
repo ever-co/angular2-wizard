@@ -1,6 +1,6 @@
 {
   "name": "@ever-co/angular2-wizard",
-  "version": "0.5.6",
+  "version": "0.5.8",
   "scripts": {
     "build": "ngc -p tsconfig.json",
     "lint": "tslint src/**/*.ts",
@@ -33,13 +33,11 @@
   "main": "./dist/index.js",
   "dependencies": {
     "@angular/cli": "^12.2.10",
+    "@angular/common": "^12.2.10",
     "@angular/compiler-cli": "^12.2.10",
+    "@angular/core": "^12.2.10",
     "bootstrap": "^4.6.0",
     "tslib": "^2.3.0"
-  },
-  "peerDependencies": {
-    "@angular/common": "^12.2.10",
-    "@angular/core": "^12.2.10"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "~12.2.10",
@@ -57,6 +55,7 @@
     "karma-chrome-launcher": "^3.1.0",
     "karma-coverage": "^2.0.3",
     "karma-jasmine": "^4.0.1",
+    "karma-jasmine-html-reporter": "^1.7.0",
     "karma-mocha-reporter": "^2.2.5",
     "karma-remap-coverage": "^0.1.5",
     "karma-sourcemap-loader": "^0.3.8",
@@ -72,8 +71,5 @@
   },
   "engines": {
     "node": ">=14.4.0"
-  },
-  "_comment01": {
-    "typings": "./dist/index.d.ts"
   }
 }

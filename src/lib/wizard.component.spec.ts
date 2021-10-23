@@ -1,7 +1,7 @@
 import { TestBed } from '@angular/core/testing';
 
 import { WizardComponent } from './wizard.component';
-import { FormWizardModule } from '../index';
+import { FormWizardModule } from './wizard.module';
 
 describe('Wizard Component', () => {
     beforeEach(() => {
